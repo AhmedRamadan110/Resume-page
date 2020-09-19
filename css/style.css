@@ -1,0 +1,191 @@
+/* Global Codes */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {height: 4000px;font-family: Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+hr {
+    border-top: rgba(0,0,0,.1)
+}
+
+.main {
+  margin-left: 280px;
+  padding: 0 40px;
+}
+
+/* My Resume */
+
+.my-resume {
+	background-color: #bd5d38;
+	text-align: center;
+	position: fixed;
+	width: 280px;
+	height: 100%;
+	padding-top: 100px;
+}
+
+.my-resume img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 8px solid #ce8163;
+}
+
+.my-resume h2 {padding-top: 12px;font-size: 20px;}
+
+.my-resume a {
+	color: rgba(255,255,255,.5);
+	letter-spacing: 1px;
+}
+
+.my-resume a:hover {color: rgba(255,255,255,.7);}
+
+.my-resume a.active {color: #FFF;}
+
+
+/* About */ 
+
+.main .about {
+	padding-top: 130px;
+}
+
+.main .about h1 {
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #343a40;
+}
+
+.main .about span {
+	text-transform: uppercase;
+	color: #bd5d38;
+}
+
+.main .about .bold {
+	font-weight: 600;
+}
+
+.main .about a {
+	color: #bd5d38;
+}
+
+.main .about a:hover {
+	text-decoration: underline;
+}
+
+.main .about p {
+    font-size: 19px;
+    color: #868e96;
+    line-height: 1.6;
+}
+
+.main .icons a {
+    background-color: #495057;
+    color: #FFF;
+    font-size: 29px;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+    margin-right: 18px;
+    display: inline-block;
+    margin-bottom: 180px;
+}
+
+.main .icons a:hover {
+	background-color: #bd5d38;
+}
+
+.main .experience {
+	margin-top: 65px;
+	margin-bottom: 60px;
+}
+
+.experience h1 {
+	color: #343a40;
+	padding-bottom: 40px;
+	font-size: 40px;
+}
+
+.experience h2 {
+	color: #343a40;
+	padding-bottom: 7px;
+	position: relative;
+}
+
+.experience span {
+	color: #bd5d38;
+	font-weight: 400;
+	font-size: 17px;
+	position: absolute;
+	right: 5px;
+
+}
+
+.experience h3 {
+	color: #868e96;
+	font-weight: 500;
+}
+
+.experience p {
+	color: #868e96;
+	font-weight: 400;
+	padding-top: 20px;
+    line-height: 1.5;
+}
+
+.experience p:last-child {
+	padding-bottom: 30px;
+}
+
+
+.experience ul li {
+    margin-top: 22px;
+    width: 53px;
+    font-size: 45px;
+    float: left;
+    display: inline-block;
+    margin-right: .5rem;
+    color: #6c757d;
+}
+
+.experience ul li:hover {
+	color: #bd5d38;
+}
+
+.experience .workflow .edit {
+    color: #868e96;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.experience .adjust {
+    margin-left: 20px;
+    line-height: normal;
+    padding-top: 4px;
+}
+
+.experience .fa-trophy {
+	color: gold;
+	font-weight: 900;
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+
